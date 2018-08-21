@@ -47,7 +47,7 @@ Một số vấn đề lớn nảy sinh với phương pháp xác thực này.
 
 **CORS**: Khi chúng ta muốn mở rộng ứng dụng của mình để cho phép dữ liệu của chúng ta được sử dụng trên nhiều thiết bị di động, chúng ta phải lo lắng về việc chia sẻ tài nguyên gốc (CORS). Khi sử dụng AJAX để lấy tài nguyên từ một tên miền khác (mobile đến API server), chúng ta có thể gặp sự cố với các request bị cấm
 
-**CSRF**: Chúng ta cũng sẽ có sự bảo vệ chống lại [cross-site request forgery] [1] (CSRF). Người dùng dễ bị tấn công CSRF vì họ có thể đã được xác thực với một trang web ngân hàng và điều này có thể được tận dụng khi truy cập các trang web khác.
+**CSRF**: Chúng ta cũng sẽ có sự bảo vệ chống lại [cross-site request forgery][1] (CSRF). Người dùng dễ bị tấn công CSRF vì họ có thể đã được xác thực với một trang web ngân hàng và điều này có thể được tận dụng khi truy cập các trang web khác.
 
 Với những vấn đề này, khả năng mở rộng là vấn đề chính, bạn nên thử một cách tiếp cận khác.
 
